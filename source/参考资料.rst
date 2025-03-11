@@ -1,0 +1,7 @@
+参考资料
+========
+
+.. [Anaya2022] Anaya M. 编写整洁的Python代码. 第2版(袁国忠, Trans.). 人民邮电出版社; 2022.
+.. [Martin2010] Martin RC. 代码整洁之道. (韩磊, Trans.). 北京: 人民邮电出版社; 2010.
+.. [McConnell2006] McConnell SC. 代码大全. 第2版 (金戈 et al., Trans.). 北京: 电子工业出版社; 2006.
+.. [Rossum2013] Rossum G van, Warsaw B, Coghlan A. PEP 8 – style guide for python code | peps.python.org. Python Enhancement Proposals (PEPs) 2013. https://peps.python.org/pep-0008/ (accessed January 12, 2025).
