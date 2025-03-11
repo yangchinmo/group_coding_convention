@@ -9,7 +9,7 @@
 project = '课题组编程规范'
 copyright = '2025, yangjinmo'
 author = '杨锦莫'
-release = 'v0.3.0'
+release = 'v0.4.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
