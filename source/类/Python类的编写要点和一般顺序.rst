@@ -1,7 +1,7 @@
 Python类的编写要点和一般顺序
 ----------------------------
 
-虽然python中没有强制要求将成员数据或方法设置为私有、公用或保护——都是公有的，但是类似的思想同样也得到了强调[@anayaBianXieZheng2022]：
+虽然python中没有强制要求将成员数据或方法设置为私有、公用或保护——都是公有的，但是类似的思想同样也得到了强调 [Anaya2022]_ ：
 
 -  类应该只暴露和外部调用者对象相关的属性和方法
 -  内部的方法和属性太多，可能是没有做到良好的抽象一致性，承担的责任太多了，
@@ -23,18 +23,21 @@ Python类的编写要点和一般顺序
 
 .. code:: python
 
-   class Class_name(Object) #Object是构建类时需要继承的基类，可以默认不写
+   class Class_name(Object)： #Object是构建类时需要继承的基类，可以默认不写
        '''有关类的文档字符串，第一行为简短摘要。
 
        如果是多行第二行需要有空行
        第二行注释
        ...
        '''
-       def __init__(self, arg1, arg2, ...)
+       def __init__(
+               self, arg1, arg2,
+               ...)：
            self.arg1 = arg1
            self._arg2 = arg2
 
-       def func1(self)
+       def func1(
+               self)：
            print("the class name is {}.".format(self))
 
 注意：
